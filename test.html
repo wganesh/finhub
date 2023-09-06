@@ -1,13 +1,13 @@
 <html>
   <body>
     <h1>
-      Hello there, the time is <%
+      Hello there, the time is <script> 
         const now = new Date();
         const hours = now.getHours();
         const minutes = now.getMinutes();
 
         console.log(`The time is ${hours}:${minutes}`);
-        %>
+        </script>
     </h1>
   </body>
 </html>
